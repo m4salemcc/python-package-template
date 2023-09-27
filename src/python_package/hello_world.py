@@ -23,4 +23,3 @@ def good_night() -> str:
 def hello_goodbye():
     hello_world(1)
     good_night()
-    return 0
