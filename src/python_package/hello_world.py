@@ -10,7 +10,7 @@ from __future__ import annotations
 
 def hello_world(i: int = 0) -> str:
     """Doc String."""
-    print("hello world - sec 1")
+    print("hello world - sec 2")
     return f"string-{i}"
 
 
