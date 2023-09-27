@@ -20,4 +20,5 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        python src/python_package/lint.py
+        working-directory: ./src/python_package
+        python lint.py
