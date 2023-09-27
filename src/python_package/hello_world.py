@@ -15,10 +15,12 @@ def hello_world(i: int = 0) -> str:
 
 
 def good_night() -> str:
+    """Doc String."""
     print("good night")
     return "string"
 
 
 def hello_goodbye():
+    """Doc String."""
     hello_world(1)
     good_night()
